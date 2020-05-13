@@ -2,26 +2,28 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function MyInfo() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello World</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="bhawna">
+      <h1>My Info</h1>
+      <h2>This is a hello from Bhawna Patnaik</h2>
+      <h3>My favourite vacation destination are as follows:</h3>
+      <h3>
+        <div class="row">
+          <div class="column">
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
+          <div class="column">
+          <ol className="vacation">
+            <li>Venice</li>
+            <li>Gangtok</li>
+            <li>Washington DC</li>
+          </ol>
+          </div>
+        </div>
+      </h3>
     </div>
   );
 }
 
-export default App;
+export default MyInfo;
