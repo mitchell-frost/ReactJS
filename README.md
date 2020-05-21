@@ -10,9 +10,9 @@ This is a simple app that displays information about me.
 
 This is an app that counts and hence, increments and decrements the value on the screen with the help of a button. It takes user input and updates the value that is supposed to be displayed.
 
-## Conditional App
+## Jokes App
 
-This app displays a value on the screen depending on a  condition. It checks for a condition and renders hings on the screen depending on whether it's true or false.
+This app displays a number of jokes on the screen with the help of React.
 
 ## User Auth Button App
 
